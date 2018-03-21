@@ -384,6 +384,8 @@ Git CLEAN removes all untracked files.
      - Cloning a particuar branch
    * - git clone -depth=1 <clone_url>
      - Shallow cloning, only clones the last commit history. An extensive commit history may cause problems such as disk space usage limits and long wait times when cloning.
+   * - Updating remote url
+     - git remote set-url origin https://github.com/username/newrepo.git
    * - git clone --bare <clone_url> myrepo
      - Only history and other info will be cloned. No code will be downloaded.
    * - git pull --rebase origin master
