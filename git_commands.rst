@@ -68,18 +68,15 @@ Git branching
    * - git branch -m newbranchname
      - Renames a given branch
    * - git branch -d mybranch
-     - Safe way to delete given branch. It prevent you to delete 
-if any unmerged changes available in your local
+     - Safe way to delete given branch. It prevent you to delete if any unmerged changes available in your local
    * - git branch -D mybranch
-     - Force delete even if unmerged changes exist. Using this will throw away 
-all your commits associated with the branch.
+     - Force delete even if unmerged changes exist. Using this will throw away all your commits associated with the branch.
    * - git push origin --delete mybranch
      - Deletes branch from remote
    * - git push origin :mybranch
      - Alternate to "--delete mybranch"
    * - git fetch --all
-     - Fetches contents from remote. If any changes done to remote like adding/deleting branch etc, 
-fetch operation will pull all this information from remote
+     - Fetches contents from remote. If any changes done to remote like adding/deleting branch etc, fetch operation will pull all this information from remote
 
 
 Git stash
