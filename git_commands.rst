@@ -49,7 +49,7 @@ Like SVN, **.git** folder won't be created in every sub folder. We can also crea
 Git branching
 --------------
 .. list-table:: 
-   :widths: 40 60
+   :widths: 30 50
    :header-rows: 1
 
    * - Command
