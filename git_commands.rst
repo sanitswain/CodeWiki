@@ -21,7 +21,7 @@ Configurations are stored in 3 different files; *local, global, system*.
 Like SVN, **.git** folder won't be created in every sub folder. We can also create .git folder outside of the project root if we set GIT_DIR environment variable or passing "--separate-git-dir=/apps/repo" option.
 
 .. list-table:: 
-   :widths: 30 50
+   :widths: 40 60
    :header-rows: 1
 
    * - Command
@@ -47,7 +47,7 @@ Like SVN, **.git** folder won't be created in every sub folder. We can also crea
 Git branching
 --------------
 .. list-table:: 
-   :widths: 30 50
+   :widths: 40 60
    :header-rows: 1
 
    * - Command
