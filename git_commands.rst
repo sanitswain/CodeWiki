@@ -27,11 +27,11 @@ Like SVN, **.git** folder won't be created in every sub folder. We can also crea
    * - Command
      - Description
    * - git config --global user.email a@b.com
-     - 
+     - Setting user email
    * - git config --local user.name sanit
-     - 
+     - setting username for local repo
    * - git config --system user.name sanitswain
-     -
+     - setting username for all repos
    * - git config user.email
      - Returns the email if already configured
    * - git config --global merge.tool kdiff3
@@ -42,6 +42,8 @@ Like SVN, **.git** folder won't be created in every sub folder. We can also crea
      - Creating central bare repo
    * - git init newdirectory --template=<template_directory>
      - Templates allow you to initialize a new repository with a predefined .git subdirectory
+   * - git config diff.color.commit green
+     - updating color of commit id for git log output
 
 
 Git branching
