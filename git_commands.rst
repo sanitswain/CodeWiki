@@ -369,6 +369,8 @@ Git credential
      - Description
    * - git config --global credential.helper wincred
      - clears credential. While interacting to remote (pushing/pulling code etc) next time, windows will prompt for credential.
+   * - git config --global core.askpass
+     - If password is not configured, Git will return `Password for 'https://emmap1@bitbucket.org': No such file or directory`. On setting this cpnfig, Git will ask for password.
      
 
 Git other commands
