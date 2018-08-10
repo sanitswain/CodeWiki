@@ -402,7 +402,7 @@ Git CLEAN removes all untracked files.
    * - git rebase master
      - Rebase your local commits on top of master
    * - git rebase -i HEAD~3
-     - Rebase your local commits on top of last few commits. This option can be used to rewrite last few commits
+     - Rebase your local commits on top of last few commits. This option can be used to rewrite last few commits. This is useful when you need to clean up your commits before pushing to server repository. For example (1)If you have done multiple commit to fix typo error which can be accomodated to single commit or (2)Want to fix a commit message etc.
    * - git --help pull
      - Opens doc for pull command
 
